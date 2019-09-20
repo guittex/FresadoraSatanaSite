@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.titulos{
+	width: 269px;
+	height: 17px;
+	margin-bottom: 3px;
+	text-align: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #5b5b5f;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.titulotel {
+	width: 269px;
+	height: 17px;
+	margin-bottom: 3px;
+	text-align: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #5b5b5f;
+	float: left;
+	margin-left: 10px;
+}
+
+.campos{
+	clear:right;
+	width: 230px;
+	height: auto;
+	margin-bottom: 3px;
+	text-align:left;
+}
+
+.campoddd{
+	width: 61px;
+	height: auto;
+	margin-bottom: 8px;
+	text-align:left;
+	float:left;
+}
+
+.campotel{
+	clear:right;
+	width: 200px;
+	height: auto;
+	margin-bottom: 8px;
+	text-align:left;
+	float:left;
+}
+
+input{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 25px;
+	width: 265px;
+	margin-left: 10px;
+}
+
+.informacoes{
+	clear:right;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.form_botao {
+	border: none;
+	background-color: transparent;
+	color: transparent;
+	background-image: url(../imagens/imagens-internas/btn-enviar.png);
+	background-repeat: no-repeat;
+	position: relative;
+	float: right;
+	width: 85px;
+	height: 25px;
+	margin-right: 11px;
+	margin-top: 9px;
+}
+
+.form_botao:hover {
+	border: none;
+	background-color: transparent;
+	color: transparent;
+	background-image: url(../imagens/imagens-internas/btn-enviar-over.png);
+	background-repeat: no-repeat;
+	position: relative;
+	float: right;
+	width: 85px;
+	height: 25px;
+	margin-right: 11px;
+	margin-top: 9px;
+}
+
+textarea {
+	position: relative;
+	width: 266px;
+	clear: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}

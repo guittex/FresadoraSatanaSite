@@ -1,0 +1,45 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sem título</title>
+<link href="*.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="validaform.js"></script>
+
+</head>
+<body>
+<div class="master">
+<p class="informacoes">Solicite maiores informações</p>
+<div class="divform">
+
+  <form id="fomulario" name="fomulario" method="post" action="email/envia.php" onsubmit="return y(this);">
+    <div class="titulos">* Nome</div><div class="campos"><input name="nome" type="text" id="nome" size="34" maxlength="50" /></div>
+
+<div class="titulos">Empresa</div><div class="campos"><input name="empresa" type="text" id="empresa" size="34" maxlength="50" /></div>
+
+<div class="titulotel">* Telefone</div><div class="campos">
+<input name="telefone" type="text" id="telefone" value="(  ) ____-____" size="34" maxlength="14" onkeypress="mascara(this,telephone)" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'(  ) ____-____':this.value;" /></div>
+
+<div class="titulos">* Email</div><div class="campos"><input name="email" type="text" id="email" size="34" maxlength="50" /></div>
+
+<div class="titulos">Assunto</div><div class="campos">
+  <select name="assunto" value="Orçamento">
+    <option value="Orcamento">Orçamento</option>
+    <option value="Opiniao">Opinião</option>
+    <option value="Sugestao">Sugestão</option>
+    <option value="Parceria">Parceria</option>
+    <option value="Reclamacao">Reclamação</option>
+    <option value="Outros">Outros</option>
+  </select>
+</div>
+<div class="titulos">Mensagem</div><div class="campos"><textarea name="mensagem" rows="4" cols="30"></textarea></div>
+<div align="center"> <input class="form_botao" type="submit" name="Enviar" value="Enviar Mensagem"><input class="form_botao" type="reset" name="Limpar" value="Limpar"></div>
+  </form>
+
+</div>
+
+</div>
+</body>
+</html>

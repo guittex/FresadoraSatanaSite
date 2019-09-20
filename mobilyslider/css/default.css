@@ -1,0 +1,47 @@
+.slider {
+	float: left;
+	width: 960px;
+	position: relative;
+}
+
+.sliderContent {
+float: left;
+width: 960px;
+height: 320px;
+clear: both;
+position: relative;
+overflow: hidden;
+}
+
+.sliderContent .item {
+position:absolute;
+width:960px;
+background:#fff;
+}
+
+.sliderBullets {
+position:absolute;
+bottom:0;
+left:45%;
+z-index:50;
+}
+
+.sliderBullets a {
+display:block;
+float:left;
+text-indent:-9999px;
+outline:none;
+margin-left:5px;
+width:10px;
+height:11px;
+background:url(../gfx/bullets.png) no-repeat;
+}
+
+.sliderBullets .active {
+background-position:0 -11px;
+}
+
+.sliderContent a {
+outline:none;
+}
+

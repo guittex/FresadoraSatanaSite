@@ -1,0 +1,418 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.titulos{
+	width: 162px;
+	margin-bottom: 3px;
+	text-align: left;
+	float: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #5b5b5f;
+	font-weight:bold;
+}
+
+.titulotel {
+	width: 162px;
+	height: 17px;
+	margin-bottom: 3px;
+	text-align: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #5b5b5f;
+	font-weight:bold;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.campos{
+	float: left;
+	width: 748px;
+	text-align: left;
+	position: relative;
+	height: 22px;
+}
+
+.campos p {
+	font-weight:bold;
+	font-style:italic;
+	font-size:13px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#5b5b5f;
+	position:relative;
+	margin-left:10px;
+	float:left;
+}
+
+
+input{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 15px;
+	width: 265px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+}
+
+.informacoes{
+	clear:right;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.form_botao {
+	border: none;
+	background-color: transparent;
+	color: transparent;
+	background-image: url(../imagens/imagens-internas/btn-enviar.png);
+	background-repeat: no-repeat;
+	position: relative;
+	float: right;
+	width: 85px;
+	height: 25px;
+	margin-right: 11px;
+	margin-top: 9px;
+}
+
+.form_botao:hover {
+	border: none;
+	background-color: transparent;
+	color: transparent;
+	background-image: url(../imagens/imagens-internas/btn-enviar-over.png);
+	background-repeat: no-repeat;
+	position: relative;
+	float: right;
+	width: 85px;
+	height: 25px;
+	margin-right: 11px;
+	margin-top: 9px;
+}
+
+textarea {
+	position: relative;
+	width: 266px;
+	clear: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+/* Alterações necessárias para alteração de Input's */
+
+/* Redução Conhecida */
+
+.titulos-reducao-conhecida {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:13px;
+	color:#5b5b5f;
+	width: 162px;
+	margin-bottom: 3px;
+	text-align: left;
+	float: left;
+}
+
+.campos-reducao-conhecida {
+	float: left;
+	width: 748px;
+	text-align: left;
+	position: relative;
+	height: 35px;
+}
+
+input#reducaoconhecida {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 85px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+}
+
+/* Fim Redução Conhecida */
+
+/* Rotação de Entrada */
+
+.titulos-rotacao-entrada {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:13px;
+	color:#5b5b5f;
+	width: 162px;
+	margin-bottom: 3px;
+	text-align: left;
+	float: left;
+}
+
+.campos-rotacao-entrada {
+	float: left;
+	width: 104px;
+	text-align: left;
+	position: relative;
+	height: 35px;
+}
+
+input#rotentrada {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 85px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+}
+
+/* Fim Rotação de Entrada */
+
+/* RTC */
+
+.titulos-rtc {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 13px;
+	color: #5b5b5f;
+	width: 20px;
+	margin-bottom: 3px;
+	text-align: left;
+	float: left;
+	font-weight: bold;
+	margin-top: 3px;
+}
+
+.campos-rtc {
+	float: left;
+	width: 386px;
+	text-align: left;
+	position: relative;
+	height: 35px;
+}
+
+.campos-rtc p {
+	float: left;
+	left: 2px;
+	position: relative;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 13px;
+	color: #5b5b5f;
+	font-weight: bold;
+}
+
+input#rtc {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 50px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+}
+
+input#rtc2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 50px;
+	margin-left: 4px;
+	float: left;
+	position: relative;
+}
+
+input#rtc3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 50px;
+	margin-left: 4px;
+	float: left;
+	position: relative;
+}
+
+input#rtc4 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 50px;
+	margin-left: 4px;
+	float: left;
+	position: relative;
+}
+
+input#rtc5 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 50px;
+	margin-left: 4px;
+	float: left;
+	position: relative;
+}
+
+input#rtc6 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 50px;
+	margin-left: 4px;
+	float: left;
+	position: relative;
+}
+
+/* Fim RTC */
+
+/* Rotação de Saída */
+
+.titulos-rotacao-saida {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 13px;
+	color: #5b5b5f;
+	width: 162px;
+	margin-bottom: 3px;
+	text-align: left;
+	float: left;
+}
+
+.campos-rotacao-saida {
+	float: left;
+	width: 560px;
+	text-align: left;
+	position: relative;
+	height: 35px;
+}
+
+.campos-rotacao-saida p {
+	float: left;
+	left: 5px;
+	position: relative;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 13px;
+	color: #5b5b5f;
+	top: 2px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+input#rotsaida {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 85px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+}
+
+/* Fim Rotação de Saída */
+
+/* NM/ */
+
+.titulos-nm {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 13px;
+	color: #5b5b5f;
+	width: 21px;
+	margin-bottom: 3px;
+	text-align: left;
+	float: left;
+	margin-top: 2px;
+	font-weight: bold;
+}
+
+.campos-nm {
+	float: left;
+	width: 230px;
+	text-align: left;
+	position: relative;
+	height: 35px;
+}
+
+.campos-nm p {
+	float: left;
+	left: 5px;
+	position: relative;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 13px;
+	color: #5b5b5f;
+	font-weight: bold;
+}
+
+input#nm {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 50px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+}
+
+input#nm2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 50px;
+	margin-left: 4px;
+	float: left;
+	position: relative;
+}
+
+input#rmp {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	width: 50px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+}
+
+.form_botao-reducao {
+	background-image: url(../imagens/imagens-internas/btn-solicitar-orcamento.png);
+	background-repeat: no-repeat;
+	float: right;
+	width: 151px;
+	height: 27px;
+	color: transparent;
+	background-color: transparent;
+	border: none;
+	border-radius: 0px;
+	margin-right: 45px;
+}
+
+.form_botao-reducao:hover {
+	background-image: url(../imagens/imagens-internas/btn-solicitar-orcamento-over.png);
+	background-repeat: no-repeat;
+	float: right;
+	width: 151px;
+	height: 27px;
+	color: transparent;
+	background-color: transparent;
+	border: none;
+	border-radius: 0px;
+	margin-right: 45px;
+}
+
+/* Fim NM/ */
